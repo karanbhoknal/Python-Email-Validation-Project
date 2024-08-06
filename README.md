@@ -29,8 +29,11 @@ if len(email)>=6:  #  here we have to count valid email length
                     elif i.isalpha():
                     
                         if i==i.upper(): # W--  W==W 
+                        
                             j=1
+                            
                     elif i.isdigit():
+                    
                         continue
                         
                     elif i=="_" or i=="." or i=="@":
@@ -56,5 +59,5 @@ else:
 
 # You can run code on Terminal using this command
 
-  1 python email.py
+  1. Python email.py
 
